@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="../pic/material-ui-svgrepo-com.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&amp;family=Inter:wght@600&amp;family=Lobster+Two:wght@700&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS Libraries -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/test.css">
+    <title>Testimonial</title>
+</head>
+
+<body>
+    <!-- model start -->
+    <!-- Modal -->
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content p-1" style="border-radius: 5px;box-shadow: 0px 0px 10px var(--color-main)">
+                <div class="modal-body">
+                    <input placeholder="Search..." class="input" name="text" type="text">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modle end -->
+    <nav>
+        <div class=" container-fluid">
+            <nav class="navbar navbar-expand-lg p-3" style="z-index: 99; left: 0;">
+                <div class="container-fluid   container-xl">
+                    <a class="navbar-brand fw-mediumer d-lg-block d-md-block d-sm-none d-none " href="#" style="color: var(--color-main);text-transform: uppercase;font-size:2rem;font-family: 'Lobster Two', cursive;
+                    font-weight: 700;">
+                        <img src="../pic/material-ui-svgrepo-com.svg" alt="" id="logo-img">CodeMasters</a>
+                    <a class="navbar-brand fw-bolder d-lg-none d-md-none d-sm-block" href="#"
+                        style="color: var(--color-main);font-size: 2rem;"><img src="../pic/material-ui-svgrepo-com.svg"
+                            alt="" id="logo-img"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse lex-row justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav gap-2">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link ">Home</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a href="about.html" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="course.html" class="nav-link">Course</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="Testimonial.html" class="nav-link sf-with-ul active">Testimonial</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="Teacher.html" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Teacher
+                                </a>
+                                <ul class="dropdown-menu p-3">
+                                    <li class="nav-item">
+                                        <a href="service.html" class="nav-link">Service</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="Teacher.html" class="nav-link">Teacher</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="blog.html" class="nav-link">Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="schor.html" class="nav-link">Scholarship</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">Contact Us
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="nav-link"><i
+                                        class="bi bi-search" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    </i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a data-bs-toggle="modal" class="nav-link"><i class="bi bi-bell"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </nav>
+    <!-- end nav -->
+    <div id="carouselExampleCaptions" class="carousel slide position-relative carousel-slide    "
+        data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active ">
+                <img src="../pic//aboutcs.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-flex justify-content-center align-items-center">
+                    <div class="wrapper-caption text-center ">
+                        <div data-aos="fade-down">
+                            <h5 class=" text-uppercase mb-md-3 ">Testimonial</h5>
+                            <h1 class="text-white mb-md-4">What Our Students Says!</h1>
+                            <button class="btn-53 m-auto">
+                                <div class="original">Read More</div>
+                                <div class="letters">
+                                    <span>G</span>
+                                    <span>E</span>
+                                    <span>T</span>
+
+                                    <span>S</span>
+                                    <span>T</span>
+                                    <span>A</span>
+                                    <span>R</span>
+                                    <span>T</span>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- student start -->
+    <div class="container-fluid bg-student mt-5">
+        <div class="container pb-5">
+            <div data-aos="fade-up">
+                <div class="row p-lg-5 text-center">
+                    <div class="title-student">
+                        <h4 class="fw-bolder">Testimonial</h4>
+                        <h1 class="fw-bolder">What Our Students Says!</h1>
+                    </div>
+                </div>
+                <div class="row text-xl-center m-auto mt-4">
+                    <div id="carouselExampleIndicators" class="carousel slide m-auto carousels" data-bs-ride="true">
+                        <div class="carousel-indicators"
+                            style="flex-direction: row; top: auto; justify-content: center; right: 0; margin:auto;width:auto; gap: 0.5rem;margin-bottom: 1rem;">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" style="border: 0.5px solid var(--color-main);"
+                                aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2" style="border: 0.5px solid var(--color-main);"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3" style="border: 0.5px solid var(--color-main);"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                aria-label="Slide 3" style="border: 0.5px solid var(--color-main);"></button>
+                        </div>
+                        <div class="carousel-inner text-center bg-white" style="border-radius: 20px;">
+                            <div class="tools">
+                                <div class="wrapper-colors">
+                                    <div class="circle">
+                                        <span class="red box"></span>
+                                    </div>
+                                    <div class="circle">
+                                        <span class="yellow box"></span>
+                                    </div>
+                                    <div class="circle">
+                                        <span class="green box"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item active carousel-items">
+                                <div class="logo-student m-auto">
+                                    <img src="../pic/My Pic.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="content-student mt-3">
+                                    <p class="fw-light fs-6" style="line-height: 1.5;">This course was a game-changer
+                                        for
+                                        me! The lessons on web development were clear and easy to follow, and I built my
+                                        first website within weeks. The instructor's support and detailed explanations.
+                                    </p>
+                                    <hr class="text-black">
+                                    <h4 class="fw-bolder text-uppercase" style="color: var(--color-main);">Bun
+                                        Sengtri</h4>
+                                    <span class="fw-light">
+                                        Web Development Student
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="carousel-item carousel-items">
+                                <div class="logo-student m-auto">
+                                    <img src="../pic/raksa.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="content-student mt-3">
+                                    <p class="fw-light fs-6">I had no coding experience before taking this course, but
+                                        now I
+                                        feel confident working with HTML, CSS, and JavaScript.
+                                        The hands-on projects and practical examples were amazing!</p>
+                                    <hr class="text-black">
+                                    <h4 class="fw-bolder text-uppercase" style="color: var(--color-main);">Em Raksa</h4>
+                                    <span class="fw-light">
+                                        Front-End Development Graduate
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="carousel-item carousel-items">
+                                <div class="logo-student m-auto">
+                                    <img src="../pic/phirun.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="content-student mt-3">
+                                    <p class="fw-light fs-6">The data science course was exceptional. The focus on
+                                        real-world projects and tools like Python and machine learning
+                                        gave me skills I could use immediately in my career.</p>
+                                    <hr class="text-black">
+                                    <h4 class="fw-bolder text-uppercase" style="color: var(--color-main);">Vat Phirun
+                                    </h4>
+                                    <span class="fw-light">
+                                        Data Science Enthusiast
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="carousel-item carousel-items">
+                                <div class="logo-student m-auto">
+                                    <img src="../pic/ing.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="content-student mt-3">
+                                    <p class="fw-light fs-6">Learning mobile development here was incredible! I now
+                                        understand how to create responsive, functional apps for Android
+                                        and iOS. This course opened up so many opportunities for me!</p>
+                                    <hr class="text-black">
+                                    <h4 class="fw-bolder text-uppercase" style="color: var(--color-main);">Ou Seavinh
+                                    </h4>
+                                    <span class="fw-light">
+                                        Mobile Development Graduate
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="btn-next text-dark" aria-hidden="true"><i class="bi bi-arrow-left"></i></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="btn-next text-dark" aria-hidden="true"><i class="bi bi-arrow-right"></i></span>
+                            <span class="visually-hidden">Next</span>
+                        </button> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end student -->
+    <footer>
+        <div class="container-fluid bg-footer bg-dark p-4">
+            <div class="container-fluid p-lg-5 container-xl container-xxl">
+                <div class="row text-left">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <h4>Quick Link</h4>
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="" class="nav-link">History</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Vison-Mission-Value</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">FAQs</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Career Opportunities</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Career Opportunities University</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mt-3 mt-lg-0">
+                        <h4>Explore</h4>
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="" class="nav-link">Student Life</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">News & Events</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Tuition Fee</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Scholarships</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mt-3 mt-lg-0">
+                        <h4>Schools</h4>
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="" class="nav-link"><i class="bi bi-chevron-right"></i> School
+                                    of Business</a></li>
+                            <li class="nav-item"><a href="" class="nav-link"><i class="bi bi-chevron-right"></i> School
+                                    of Seince</a></li>
+                            <li class="nav-item"><a href="" class="nav-link"><i class="bi bi-chevron-right"></i> School
+                                    of Web</a></li>
+                            <li class="nav-item"><a href="" class="nav-link"><i class="bi bi-chevron-right"></i> School
+                                    of Data</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mt-3 mt-lg-0">
+                        <h4>Contact Us</h4>
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="" class="nav-link">Address:Khan
+                                    sensok, Phnom Penh, Cambodia</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Phone: (+855) 99706869</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Email: ktri@gmail.com</a></li>
+                            </li>
+                        </ul>
+                        <div class="d-flex gap-2  mt-3 wrapper-footer">
+                            <a href="https://www.instagram.com/extra_s4ngtr1/"
+                                style="background-color: transparent;color: white;">
+                                <button class="Btn instagram ">
+                                    <i class="bi bi-instagram svgIcon"></i>
+                                    <span class="textt">Instagram</span>
+                                </button>
+                            </a>
+                            <a href="https://www.youtube.com/@sengtri9610">
+                                <button class=" youtube btn-yt">
+                                    <i class="bi bi-youtube svgIcon"></i>
+                                    <span class="textt">YouTube</span>
+                                </button>
+                            </a>
+                            <a href="https://www.facebook.com/sxng.tri457/">
+                                <button class="btn-tw twitter">
+                                    <i class="bi bi-facebook svgIcon"></i>
+                                    <span class="textt">Facebook</span>
+                                </button>
+                            </a>
+                            <a href="https://github.com/sengtri457">
+                                <button class="btn-git git">
+                                    <i class="bi bi-github svgIcon"></i>
+                                    <span class="textt">Github</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <div class="row text-center p-3">
+                    <p>©Our Team, All Right Reserved. Designed By <a href="#"
+                            class="text-decoration-none">CodeMasters<img src="../pic/material-ui-svgrepo-com.svg" alt=""
+                                id="logo-img" style="width: 30px;height: 30px;margin-left: 3px;"></a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <a href="#" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+    </script>
+</body>
+
+</html>
